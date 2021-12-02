@@ -1,6 +1,7 @@
 use std::fs::read_to_string;
 
 pub fn read_input(day: u8) -> std::io::Result<String> {
+    println!("inputs/day-2.txt");
     read_to_string(format!("inputs/day-{}.txt", day))
 }
 
